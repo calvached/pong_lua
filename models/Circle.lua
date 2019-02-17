@@ -11,7 +11,7 @@ end
 
 function Circle:draw()
   love.graphics.setColor(255, 255, 255)
-  love.graphics.circle("fill", self.x, self.y, self.radius, 100)
+  love.graphics.circle("fill", self.x, self.y, self.radius)
 end
 
 return Circle
